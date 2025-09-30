@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.logo{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(8, 141, 141);
+    text-shadow: 5px 5px 10px rgb(8, 141, 141);
+}
+ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+ul li{
+    transition: all 500ms;
+    cursor: pointer;
+}
+ul li:hover{
+    cursor: pointer;
+    color: rgb(8, 141, 141);
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+.btn{
+    background-color: rgb(8, 141, 141);
+    padding: 10px 20px;
+    border-radius: 17px;
+    box-shadow: 0 0 15px rgb(8, 141, 141);
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+    transition: all 500ms;
+}
+.btn:hover{
+    box-shadow: 0 0 25px rgb(81, 255, 255);
+    transform: scale(1.1);
+}
+.main{
+    padding: 50px;
+    text-align: center;
+    min-height: 70vh;
+}
+.main button{
+    margin-top: 20px;
+}
+.footer{
+    background-color: rgb(20, 20, 20);
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    box-shadow: 0 -2px 10px rgb(8, 141, 141);
+}
+.card{
+    background-color: rgb(30, 30, 30);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(8, 141, 141);
+    margin: 20px;
+    transition: all 500ms;
+    width: 300px;
+    height: 200px;
+}
+.card:hover{
+    box-shadow: 0 0 20px rgb(81, 255, 255);
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card h2{
+    margin-bottom: 10px;
+}
+.card p{
+    font-size: 14px;
+    color: rgb(200, 200, 200);
+}
